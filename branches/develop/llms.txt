@@ -1,0 +1,26 @@
+# zw.fhir.ig.clinical#0.1.0: Zimbabwe Clinical IG
+
+## Pages
+
+* [Home](index.md)
+* [Downloads](downloads.md)
+* [Artifacts Summary](artifacts.md)
+* [About](about.md)
+
+## Resources
+
+### Resource Profiles
+
+* [Zimbabwe Condition](StructureDefinition-zw-condition.md)
+* [Zimbabwe Observation](StructureDefinition-zw-observation.md)
+* [Zimbabwe Procedure](StructureDefinition-zw-procedure.md)
+
+### ImplementationGuides
+
+* [Zimbabwe Clinical IG](index.md)
+
+### Examples
+
+* [condition1 (Condition)](Condition-condition1.md)
+* [observation1 (Observation)](Observation-observation1.md)
+* [procedure1 (Procedure)](Procedure-procedure1.md)

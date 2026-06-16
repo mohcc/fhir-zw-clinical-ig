@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/clinical/Procedure/procedure1> a fhir:Procedure ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "procedure1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/clinical/StructureDefinition/zw-procedure"^^xsd:anyURI ;
+       fhir:link <http://mohcc.gov.zw/fhir/clinical/StructureDefinition/zw-procedure>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure procedure1</b></p><a name=\"procedure1\"> </a><a name=\"hcprocedure1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-procedure.html\">Zimbabwe Procedure</a></p></div><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:\">Malaria rapid diagnostic test (RDT)</span></p><p><b>subject</b>: <code>zw-patient-example</code></p><p><b>encounter</b>: <code>encounter1</code></p><p><b>performed</b>: 2026-05-01</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><code>practitioner1</code></td></tr></table><p><b>location</b>: <code>location1</code></p><p><b>reasonReference</b>: <a href=\"Condition-condition1.html\">Condition Unspecified malaria</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:code [
+     fhir:text [ fhir:v "Malaria rapid diagnostic test (RDT)" ]
+  ] ; # 
+  fhir:subject [
+     fhir:reference [ fhir:v "zw-patient-example" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:reference [ fhir:v "encounter1" ]
+  ] ; # 
+  fhir:performed [
+     a fhir:dateTime ;
+     fhir:v "2026-05-01"^^xsd:date
+  ] ; # 
+  fhir:performer ( [
+     fhir:actor [
+       fhir:reference [ fhir:v "practitioner1" ]
+     ]
+  ] ) ; # 
+  fhir:location [
+     fhir:reference [ fhir:v "location1" ]
+  ] ; # 
+  fhir:reasonReference ( [
+     fhir:link <http://mohcc.gov.zw/fhir/clinical/Condition/condition1> ;
+     fhir:reference [ fhir:v "Condition/condition1" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

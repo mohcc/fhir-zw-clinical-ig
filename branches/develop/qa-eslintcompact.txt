@@ -1,0 +1,21 @@
+ZWClinical
+=========================================
+
+Generic: line 0, col 0, Error - The link 'references.html' for "References" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'dependencies.html' for "Dependencies" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'business-requirements.html' for "Business Requirements" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'data-models-and-exchange.html' for "Data Models and Exchange" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'deployment.html' for "Deployment Guidance" cannot be resolved (NOTFOUND)
+/work/fsh-generated/resources/Condition-condition1.json: line 47, col 4, Error - Unable to resolve resource with reference 'zw-patient-example' (STRUCTURE)
+/work/fsh-generated/resources/Condition-condition1.json: line 50, col 4, Error - Unable to resolve resource with reference 'encounter1' (STRUCTURE)
+/work/fsh-generated/resources/Condition-condition1.json: line 55, col 4, Error - Unable to resolve resource with reference 'practitioner1' (STRUCTURE)
+/work/fsh-generated/resources/Observation-observation1.json: line 30, col 4, Error - Unable to resolve resource with reference 'zw-patient-example' (STRUCTURE)
+/work/fsh-generated/resources/Observation-observation1.json: line 35, col 6, Error - Unable to resolve resource with reference 'practitioner1' (STRUCTURE)
+/work/fsh-generated/resources/Procedure-procedure1.json: line 13, col 4, Error - Unable to resolve resource with reference 'zw-patient-example' (STRUCTURE)
+/work/fsh-generated/resources/Procedure-procedure1.json: line 16, col 4, Error - Unable to resolve resource with reference 'encounter1' (STRUCTURE)
+/work/fsh-generated/resources/Procedure-procedure1.json: line 22, col 8, Error - Unable to resolve resource with reference 'practitioner1' (STRUCTURE)
+/work/fsh-generated/resources/Procedure-procedure1.json: line 32, col 4, Error - Unable to resolve resource with reference 'location1' (STRUCTURE)
+/work/fsh-generated/resources/StructureDefinition-zw-condition.json: line 1, col 36501, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead' (BUSINESSRULE)
+
+err = 9, warn = 0, info = 1
+IG Publisher Version: 2.2.9

@@ -1,0 +1,28 @@
+[{
+  "id" : "zw.fhir.ig.clinical",
+  "type" : "ImplementationGuide",
+  "url" : "http://mohcc.gov.zw/fhir/clinical/ImplementationGuide/zw.fhir.ig.clinical",
+  "version" : "0.1.0",
+  "name" : "ZWClinical"
+},
+{
+  "id" : "zw-condition",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/clinical/StructureDefinition/zw-condition",
+  "version" : "0.1.0",
+  "name" : "ZimCondition"
+},
+{
+  "id" : "zw-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/clinical/StructureDefinition/zw-observation",
+  "version" : "0.1.0",
+  "name" : "ZimObservation"
+},
+{
+  "id" : "zw-procedure",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/clinical/StructureDefinition/zw-procedure",
+  "version" : "0.1.0",
+  "name" : "ZimProcedure"
+}]

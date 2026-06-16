@@ -1,0 +1,33 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "procedure1",
+  "meta" : {
+    "profile" : ["http://mohcc.gov.zw/fhir/clinical/StructureDefinition/zw-procedure"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure procedure1</b></p><a name=\"procedure1\"> </a><a name=\"hcprocedure1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-procedure.html\">Zimbabwe Procedure</a></p></div><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Codes:\">Malaria rapid diagnostic test (RDT)</span></p><p><b>subject</b>: <code>zw-patient-example</code></p><p><b>encounter</b>: <code>encounter1</code></p><p><b>performed</b>: 2026-05-01</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><code>practitioner1</code></td></tr></table><p><b>location</b>: <code>location1</code></p><p><b>reasonReference</b>: <a href=\"Condition-condition1.html\">Condition Unspecified malaria</a></p></div>"
+  },
+  "status" : "completed",
+  "code" : {
+    "text" : "Malaria rapid diagnostic test (RDT)"
+  },
+  "subject" : {
+    "reference" : "zw-patient-example"
+  },
+  "encounter" : {
+    "reference" : "encounter1"
+  },
+  "performedDateTime" : "2026-05-01",
+  "performer" : [{
+    "actor" : {
+      "reference" : "practitioner1"
+    }
+  }],
+  "location" : {
+    "reference" : "location1"
+  },
+  "reasonReference" : [{
+    "reference" : "Condition/condition1"
+  }]
+}
